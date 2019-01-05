@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="紅茶---20$"
+            android:layout_weight="1"
+            android:textSize="13pt"
+            android:id="@+id/btnRedTea"
+            />
+
+        <Button
+            android:id="@+id/btnGreenTea"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="綠茶---25$"
+            android:textSize="13pt" />
+
+        <Button
+            android:id="@+id/btnOolongTea"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="烏龍茶---20$"
+            android:textSize="13pt" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="珍珠奶茶--30$"
+            android:layout_weight="1"
+            android:textSize="13pt"
+            android:id="@+id/btnBubbleTea"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="本日結報"
+            android:layout_weight="1"
+            android:textSize="13pt"
+            android:id="@+id/btnResultToday"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:id="@+id/lblDues"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="18pt" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/lblInputMoney"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:text="輸入收款"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/txtInputMoney"
+                android:layout_weight="1"
+                android:textSize="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+           <Button
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:id="@+id/btnOddChange"
+               android:text="找零"
+               android:layout_weight="1"
+               android:textSize="10pt"
+
+               />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="7"
+                android:layout_weight="1"
+                android:textSize="13pt"
+                android:id="@+id/btn7"
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="8"
+                android:layout_weight="1"
+                android:textSize="13pt"
+                android:id="@+id/btn8"
+                />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="9"
+                android:layout_weight="1"
+                android:textSize="13pt"
+                android:id="@+id/btn9"
+                />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="4"
+                android:layout_weight="1"
+                android:textSize="13pt"
+                android:id="@+id/btn4"
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="5"
+                android:layout_weight="1"
+                android:textSize="13pt"
+                android:id="@+id/btn5"
+                />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="6"
+                android:layout_weight="1"
+                android:textSize="13pt"
+                android:id="@+id/btn6"
+                />
+        </LinearLayout>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="1"
+                android:layout_weight="1"
+                android:textSize="13pt"
+                android:id="@+id/btn1"
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="2"
+                android:layout_weight="1"
+                android:textSize="13pt"
+                android:id="@+id/btn2"
+                />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="3"
+                android:layout_weight="1"
+                android:textSize="13pt"
+                android:id="@+id/btn3"
+                />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="0"
+                android:layout_weight="1"
+                android:textSize="13pt"
+                android:id="@+id/btn0"
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="+"
+                android:layout_weight="1"
+                android:textSize="13pt"
+                android:id="@+id/btnPlus"
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="="
+                android:layout_weight="1"
+                android:textSize="13pt"
+                android:id="@+id/btnCalc"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
